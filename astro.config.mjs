@@ -18,7 +18,8 @@ export default defineConfig({
 					label: 'Components',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Pull to refresh - refreshable', slug: 'components/refresh' },
+						{ label: 'Pull to Refresh', slug: 'components/refresh' },
+						{ label: 'Context Menu - Badge', slug: 'components/context-menu' },
 					],
 				},
 				// {

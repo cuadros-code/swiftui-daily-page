@@ -111,6 +111,8 @@
 	--sl-z-index-menu: 5;
 	--sl-z-index-navbar: 10;
 	--sl-z-index-skiplink: 20;
+
+	
 }
 
 :root[data-theme='light'],
@@ -182,4 +184,9 @@
 		--sl-content-pad-x: 1.5rem;
 		--sl-mobile-toc-height: 0rem;
 	}
+}
+
+.text-visible {
+	font-weight: bold; 
+	color: var(--sl-color-accent-high);
 }
