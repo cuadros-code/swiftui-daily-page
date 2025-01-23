@@ -5,7 +5,7 @@ template: splash
 hero:
   tagline: Discover my collection of SwiftUI examples and projects, where I share ideas, techniques, and solutions for creating amazing user interfaces with Apple's powerful framework. From basic concepts to advanced implementations, this space is designed to inspire, learn, and experiment with SwiftUI.
   image:
-    file: ../../assets/swiftui.webp
+    file: ../../assets/sw.svg
   actions:
     - text: Components Guide
       link: /components/refresh
@@ -22,6 +22,12 @@ import Card from '../../components/Card.astro';
 ## Example Guide
 <CardGrid stagger>
 	<Card title="Pull to refresh" href="/components/refresh">
+		<p>
+			In SwiftUI, you can implement pull-to-refresh functionality using the .refreshable modifier. 
+			This allows users to refresh data in your app by swiping down on a list or a scrollable view.
+		</p>
+	</Card>
+  <Card title="Pull to refresh" href="/components/refresh">
 		<p>
 			In SwiftUI, you can implement pull-to-refresh functionality using the .refreshable modifier. 
 			This allows users to refresh data in your app by swiping down on a list or a scrollable view.
