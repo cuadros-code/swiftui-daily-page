@@ -1,0 +1,30 @@
+---
+title: SwiftUI Daily
+description: Find the latest news and articles about SwiftUI and iOS development.
+template: splash
+hero:
+  tagline: Discover my collection of SwiftUI examples and projects, where I share ideas, techniques, and solutions for creating amazing user interfaces with Apple's powerful framework. From basic concepts to advanced implementations, this space is designed to inspire, learn, and experiment with SwiftUI.
+  image:
+    file: ../../assets/swiftui.webp
+  actions:
+    - text: Components Guide
+      link: /guides/example/
+      icon: right-arrow
+    # - text: Read the Starlight docs
+    #   link: https://starlight.astro.build
+    #   icon: external
+    #   variant: minimal
+---
+
+import { CardGrid, LinkCard, Icon} from '@astrojs/starlight/components';
+import Card from '../../components/Card.astro';
+
+## Example Guide
+<CardGrid stagger>
+	<Card title="Pull to refresh" href="/components/refresh">
+		<p>
+			In SwiftUI, you can implement pull-to-refresh functionality using the .refreshable modifier. 
+			This allows users to refresh data in your app by swiping down on a list or a scrollable view.
+		</p>
+	</Card>
+</CardGrid>
