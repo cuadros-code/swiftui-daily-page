@@ -5,6 +5,12 @@ description: SwiftUI provides a powerful and flexible way to implement pull-to-r
 
 SwiftUI provides a powerful and flexible way to implement pull-to-refresh functionality in your app.
 
+<div style="display:block;">
+    <video controls autoplay loop style="width: 30%; height: auto; border-radius: 20px;">
+        <source src="/refresh.mp4" type="video/mp4">
+    </video>
+</div>
+
 ## Description
 
 The `refreshable` modifier is used to implement pull-to-refresh functionality in your app. It allows users to refresh data in your app by swiping down on a list or a scrollable view.
@@ -26,12 +32,6 @@ List {
 
 
 ## Example
-
-<div style="display:block;">
-    <video controls autoplay loop style="width: 30%; height: auto; border-radius: 20px;">
-        <source src="/refresh.mp4" type="video/mp4">
-    </video>
-</div>
 
 ```swift
 import SwiftUI

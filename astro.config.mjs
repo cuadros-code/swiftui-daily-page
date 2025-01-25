@@ -22,10 +22,13 @@ export default defineConfig({
 						{ label: 'Context Menu - Badge', slug: 'components/context-menu' },
 					],
 				},
-				// {
-				// 	label: 'Reference',
-				// 	autogenerate: { directory: 'reference' },
-				// },
+				{
+					label: 'Tutorials',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'View Data SwiftData', slug: 'components/see-swift-data' },
+					],
+				},
 			],
 		}),
 	],

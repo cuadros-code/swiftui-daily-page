@@ -5,6 +5,12 @@ description: Context Menu is a powerful and flexible way to implement context me
 ## Context Menu
 Context Menu is a powerful and flexible way to implement context menu functionality in your app.
 
+<div style="display:block;">
+    <video controls autoplay loop muted style="width: 30%; height: auto; border-radius: 20px;">
+        <source src="/context-menu.mp4" type="video/mp4">
+    </video>
+</div>
+
 ### Description
 
 
@@ -33,12 +39,6 @@ struct ContextMenu: View {
 
 
 ### Example
-
-<div style="display:block;">
-    <video controls autoplay loop muted style="width: 30%; height: auto; border-radius: 20px;">
-        <source src="/context-menu.mp4" type="video/mp4">
-    </video>
-</div>
 
 ```swift
 import SwiftUI
